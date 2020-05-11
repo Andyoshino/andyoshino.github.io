@@ -1,0 +1,110 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.profile img {
+    width: 50px;
+    height: auto;
+    position: relative;
+    top: 14px;
+}
+
+nav {
+    width: 100%;
+    background-image: url("images/bodyBackgroundRev.png");
+    display: block;
+    top: 0;
+}
+nav ul {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    color: white;
+    display: inline-block;
+    padding: 0 40px 0 0;
+    position: relative;
+    right: 40px;
+}
+
+#home {
+    text-align: center;
+    background-image: url("images/bodyBackgroundRev.png");
+    background-size: 100%;
+    font-size: 150%;
+    height: 1500px;
+    display: inline-block;
+    width:100%;
+    position: auto;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-image: url("images/bodyBackgroundRev.png");
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+footer div {
+    color: white;
+}
+footer div ul {
+    list-style-type: none;
+}
+footer div ul li {
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    font-size: 120%;
+}
+#info {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background: white;
+    height: 1000px;
+    display: inline-block;
+    width:100%;
+    font-size: 200%;
+    position: auto;
+    top: 900px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.clickable {
+    color: #152127;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.coolThing {
+    position: fixed;
+    bottom: 5px;
+    color: black;
+}
+
+.pesan {
+    padding: 15%;
+}
+.white {
+    color: #152027;
+    position: relative;
+    top: 120px;
+}
+
