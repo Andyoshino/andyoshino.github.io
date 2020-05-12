@@ -1,0 +1,139 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto';
+    background: rgb(33, 33, 44);
+    background-image: url("../img/bgNav.png");
+}
+
+.containerNav {
+    background-image: url("img/bgNav.png") ;
+    opacity: 0.9;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-size: 120%;
+}
+
+.containerNav ul li {
+    display: inline-block;
+    padding: 0 15px 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.containerProj {
+    text-align: center;
+}
+
+.containerProj div.containerCalc {
+    position: relative;
+    top: 120px;
+    display: inline-block;
+    border: 7px solid white;
+}
+
+.containerCalc {
+    width: 400px;
+    height: 600px;
+    background: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.calcScreen {
+    width: 100%;
+    height: 100px;
+    background: rgb(31, 43, 65);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.screen {
+    width: 90%;
+    height: 70%;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h2 {
+    position: relative;
+    right: 40px;
+}
+
+.button_layer {
+    width: 100%;
+    height: 123px;
+    background: rgb(24, 24, 46);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button_box {
+    width: 22%;
+    height: 95px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button {
+    text-decoration: none;
+    width: 22%;
+    height: 95px;
+    border: none;
+    background: grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: inherit;
+    font-size: 150%;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(19, 19, 24);
+}
+
+#hidden {
+    display: none;
+    color: red;
+}
+
+#hidden_operator {
+    display: none;
+    color: red;
+}
+
+#show {
+    font-family: 'Roboto';
+    font-size: 200%;
+    position: relative;
+}
+
+#hidden_2nd {
+    display: none;
+    color: red;
+}
+
+#hidden_show {
+    display: none;
+    color: red;
+}

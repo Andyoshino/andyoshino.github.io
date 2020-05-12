@@ -234,3 +234,32 @@ a:hover {
     top: 400px;
     padding: 5px 15px 5px 15px;
 }
+
+
+body#proj {
+    background-image: url("img/bgNav.png");
+}
+
+#proj .sContento {
+    color: white;
+    width: 100%;
+    height: 420px;
+    background-image: url("img/bgNav.png");
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 130px;
+}
+
+#proj .boxed_texto {
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    padding: 1px 10px 1px 5px;
+    font-family: 'Varela';
+    display: inline-block;
+    color: #1b262c;
+    background-color: white;
+}
