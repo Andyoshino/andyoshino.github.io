@@ -107,3 +107,11 @@ a {
     position: relative;
     top: 120px;
 }
+#pesanSalam {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* changeBg.html */
+#changeBg {
+    color: black;
+    background: white;
+}
